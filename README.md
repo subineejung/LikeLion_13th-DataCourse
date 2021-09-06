@@ -9,4 +9,4 @@
     * 04 div, span, ul, ol, li [link](https://github.com/subineejung/LikeLion_13th-DataCourse/blob/main/web_html/04_html_div_span.html)
 
 ** css 기본 이해
-  * Toy Project - 나의 사진 갤러리 [link](https://github.com/subineejung/LikeLion_13th-DataCourse/blob/main/02_css_gallery/14_img_gallery.html)
+  * Toy Project - 나의 사진 갤러리 [link](https://github.com/subineejung/LikeLion_13th-DataCourse/blob/main/02_css_gallery/14_img_gallery.html)[link](https://subineejung.github.io/LikeLion_13th-DataCourse/)
