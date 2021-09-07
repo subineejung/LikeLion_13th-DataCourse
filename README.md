@@ -8,5 +8,7 @@
     * 03 a, img tag [link](https://github.com/subineejung/LikeLion_13th-DataCourse/blob/main/web_html/03_html_link_img.html)
     * 04 div, span, ul, ol, li [link](https://github.com/subineejung/LikeLion_13th-DataCourse/blob/main/web_html/04_html_div_span.html)
 
-** css 기본 이해
+*** css 기본 이해
   * Toy Project - 나의 사진 갤러리 [code](https://github.com/subineejung/LikeLion_13th-DataCourse/blob/main/02_css_gallery/14_img_gallery.html)   [이동](https://subineejung.github.io/LikeLion_13th-DataCourse/02_css_gallery/14_img_gallery.html)
+  
+*** 자기소개 [link](https://github.com/subineejung/LikeLion_13th-DataCourse/blob/main/%EC%83%88%20%ED%8F%B4%EB%8D%94/01_main.html)
