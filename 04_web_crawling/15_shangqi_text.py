@@ -1,0 +1,21 @@
+import wordcloud
+from wordcloud import WordCloud
+from matplotlib import rc
+print(wordcloud.__version__)
+
+f = open("shangqi.csv", encoding='utf-8')
+text = f.read()
+print(text)
+f.close()
+
+rc('font', family='NamuGothic')
+
+wcloud = WordCloud('./data/D2Coding.ttf',
+                   max_words = 1000,
+                   relative_scaling=0.2).generate(text)
+
+import matplotlib.pyplot as plt
+plt.figure(figsize=(10,10))
+plt.imshow(wcloud,interpolation='bilinear')
+plt.axis('off')
+plt.show()
