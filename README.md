@@ -12,4 +12,4 @@
   * Toy Project - 나의 사진 갤러리 [code](https://github.com/subineejung/LikeLion_13th-DataCourse/blob/main/02_css_gallery/14_img_gallery.html)   [이동](https://subineejung.github.io/LikeLion_13th-DataCourse/02_css_gallery/14_img_gallery.html)
   
 *** 자기소개 [link](https://subineejung.github.io/LikeLion_13th-DataCourse/새%20폴더/01_main.html)
-*** 자주 가는 곳 [link](https://github.com/subineejung/LikeLion_13th-DataCourse/blob/main/my_hot_place_list.html)
+*** 자주 가는 곳 [link](https://github.com/subineejung/LikeLion_13th-DataCourse/my_hot_place_list.html)
