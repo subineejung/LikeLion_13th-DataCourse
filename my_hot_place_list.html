@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_0dd3c648e9f844338dda2d9b05553387 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_0dd3c648e9f844338dda2d9b05553387" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_0dd3c648e9f844338dda2d9b05553387 = L.map(
+        'map_0dd3c648e9f844338dda2d9b05553387', {
+        center: [37.58272388553312, 127.0295852260021],
+        zoom: 13,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_23750606099e4867872c94ff55bd2b66 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_0dd3c648e9f844338dda2d9b05553387);
+    
+        var marker_110aaac8ca2a481cb7e5488d1ff022ec = L.marker(
+            [37.59170884492381, 127.02882385213148],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0dd3c648e9f844338dda2d9b05553387);
+        
+    
+
+                var icon_aee6d9b037e44ea69bdfa8d59d5cb1bb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_110aaac8ca2a481cb7e5488d1ff022ec.setIcon(icon_aee6d9b037e44ea69bdfa8d59d5cb1bb);
+            
+    
+            var popup_90318c630a254de18f13fbdae91a1fb4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a93eacc32bc64d95904b52cdbdc72e62 = $(`<div id="html_a93eacc32bc64d95904b52cdbdc72e62" style="width: 100.0%; height: 100.0%;">베나레스</div>`)[0];
+                popup_90318c630a254de18f13fbdae91a1fb4.setContent(html_a93eacc32bc64d95904b52cdbdc72e62);
+            
+
+            marker_110aaac8ca2a481cb7e5488d1ff022ec.bindPopup(popup_90318c630a254de18f13fbdae91a1fb4)
+            ;
+
+            
+        
+    
+        var marker_4c5e172196a94c0f8e88a8cd67345264 = L.marker(
+            [37.582758424152026, 127.04532446741318],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0dd3c648e9f844338dda2d9b05553387);
+        
+    
+
+                var icon_b3dbd71be78c4e17b00dc5690f842efc = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4c5e172196a94c0f8e88a8cd67345264.setIcon(icon_b3dbd71be78c4e17b00dc5690f842efc);
+            
+    
+            var popup_14652160daca4556a7da8732f9afedf8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ec8227a2cfac4b549c2ff7b8ff1c57e0 = $(`<div id="html_ec8227a2cfac4b549c2ff7b8ff1c57e0" style="width: 100.0%; height: 100.0%;">로운샤브샤브</div>`)[0];
+                popup_14652160daca4556a7da8732f9afedf8.setContent(html_ec8227a2cfac4b549c2ff7b8ff1c57e0);
+            
+
+            marker_4c5e172196a94c0f8e88a8cd67345264.bindPopup(popup_14652160daca4556a7da8732f9afedf8)
+            ;
+
+            
+        
+    
+        var marker_54b02fae533c4a3796188d1747ef6772 = L.marker(
+            [37.58171370911498, 126.9836266570595],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0dd3c648e9f844338dda2d9b05553387);
+        
+    
+
+                var icon_29fef1985f54496a8340f785a4daf19b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_54b02fae533c4a3796188d1747ef6772.setIcon(icon_29fef1985f54496a8340f785a4daf19b);
+            
+    
+            var popup_b65b8cdcbf2f4b9e86c70982787b9398 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1d344dbab517471a822156e7bd00476f = $(`<div id="html_1d344dbab517471a822156e7bd00476f" style="width: 100.0%; height: 100.0%;">르브와</div>`)[0];
+                popup_b65b8cdcbf2f4b9e86c70982787b9398.setContent(html_1d344dbab517471a822156e7bd00476f);
+            
+
+            marker_54b02fae533c4a3796188d1747ef6772.bindPopup(popup_b65b8cdcbf2f4b9e86c70982787b9398)
+            ;
+
+            
+        
+    
+        var marker_0475905977b64192a34a700e7aa3274c = L.marker(
+            [37.580730448908234, 127.00278158155156],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0dd3c648e9f844338dda2d9b05553387);
+        
+    
+
+                var icon_a985aa05cb5848d4bb3a98a163f0ba04 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0475905977b64192a34a700e7aa3274c.setIcon(icon_a985aa05cb5848d4bb3a98a163f0ba04);
+            
+    
+            var popup_6a39b34852ed43d1b91844193bc7ba7c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ec2cccfe6d1149f4998d5b140d2bddb7 = $(`<div id="html_ec2cccfe6d1149f4998d5b140d2bddb7" style="width: 100.0%; height: 100.0%;">마로니에공원</div>`)[0];
+                popup_6a39b34852ed43d1b91844193bc7ba7c.setContent(html_ec2cccfe6d1149f4998d5b140d2bddb7);
+            
+
+            marker_0475905977b64192a34a700e7aa3274c.bindPopup(popup_6a39b34852ed43d1b91844193bc7ba7c)
+            ;
+
+            
+        
+    
+        var marker_9e254df8d961408e8fb2d18dff038935 = L.marker(
+            [37.572678378942335, 126.97565101250872],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0dd3c648e9f844338dda2d9b05553387);
+        
+    
+
+                var icon_083ea80c9bfb4c8baa1ebce52acbca6d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9e254df8d961408e8fb2d18dff038935.setIcon(icon_083ea80c9bfb4c8baa1ebce52acbca6d);
+            
+    
+            var popup_3318b06f4dd841eb8a737762f00fc128 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ff122142fac340db97d87b41d34b5250 = $(`<div id="html_ff122142fac340db97d87b41d34b5250" style="width: 100.0%; height: 100.0%;">세종문화회관</div>`)[0];
+                popup_3318b06f4dd841eb8a737762f00fc128.setContent(html_ff122142fac340db97d87b41d34b5250);
+            
+
+            marker_9e254df8d961408e8fb2d18dff038935.bindPopup(popup_3318b06f4dd841eb8a737762f00fc128)
+            ;
+
+            
+        
+    
+        var marker_ebd8bd9473ee46cfb9845558d49098ee = L.marker(
+            [37.54451538012267, 127.03744239689279],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_0dd3c648e9f844338dda2d9b05553387);
+        
+    
+
+                var icon_b3c590fb13ec4a45b91a5e275081996a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ebd8bd9473ee46cfb9845558d49098ee.setIcon(icon_b3c590fb13ec4a45b91a5e275081996a);
+            
+    
+            var popup_5e3ad1301618431788f2fece2b4b673c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0684a975e3c14f999d3a53a97ae1f468 = $(`<div id="html_0684a975e3c14f999d3a53a97ae1f468" style="width: 100.0%; height: 100.0%;">서울숲</div>`)[0];
+                popup_5e3ad1301618431788f2fece2b4b673c.setContent(html_0684a975e3c14f999d3a53a97ae1f468);
+            
+
+            marker_ebd8bd9473ee46cfb9845558d49098ee.bindPopup(popup_5e3ad1301618431788f2fece2b4b673c)
+            ;
+
+            
+        
+</script>
